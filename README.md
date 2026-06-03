@@ -2,6 +2,19 @@
 
 Standalone inference package. All model weights and configs included.
 
+## Dependencies
+
+Install the wespeaker conda environment first:
+
+```bash
+conda create -n wespeaker python=3.9
+conda activate wespeaker
+pip install -r requirements.txt
+```
+
+`requirements.txt` is exported from the wespeaker conda environment:
+
+
 ## Quick Start
 
 ```bash
@@ -96,17 +109,6 @@ Two submission files are generated:
 | English  | p3: **99.93%** (1520/1521) | p4: 97.50% (1483/1521) |
 | Urdu     | p5: **100.00%** (1623/1623) | p6: 98.83% (1604/1623) |
 
-## Dependencies
-
-Install the wespeaker conda environment first:
-
-```bash
-conda create -n wespeaker python=3.9
-conda activate wespeaker
-pip install -r requirements.txt
-```
-
-`requirements.txt` is exported from the wespeaker conda environment:
 
 
 ## Directory Structure
