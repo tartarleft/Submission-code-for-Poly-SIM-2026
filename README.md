@@ -1,4 +1,4 @@
-# Code Submission: Router-Only v2
+# Code Submission for Poly-SIM-2026 of team tartarz
 
 Standalone inference package. All model weights and configs included.
 
