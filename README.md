@@ -5,6 +5,7 @@ Standalone inference package. All model weights and configs included.
 ## Quick Start
 
 ```bash
+git clone https://github.com/tartarleft/Submission-code-for-Poly-SIM-2026.git
 cd Submission-code-for-Poly-SIM-2026
 huggingface-cli download tartarleft/polysim-2026-model --local-dir ./
 # Single GPU
