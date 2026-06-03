@@ -5,8 +5,8 @@ Standalone inference package. All model weights and configs included.
 ## Quick Start
 
 ```bash
-cd code_submission
-
+cd Submission-code-for-Poly-SIM-2026
+huggingface-cli download tartarleft/polysim-2026-model --local-dir ./
 # Single GPU
 CUDA_VISIBLE_DEVICES=0 python inference.py \
     --test_home /path/to/test_data \
